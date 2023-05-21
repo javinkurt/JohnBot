@@ -41,7 +41,7 @@ global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyCAYZ930Rq1EFiRNRJuSeGGrKljCnOb8-U"; // paste Your own Api Key..
 global.packname = process.env.PACKNAME || `👹 𝕐𝕒𝕜𝕒ᵐᵈ`;
 global.author = process.env.AUTHOR || "by: 𝖄𝖆𝖐𝖆𝖘𝖍𝖎";
-global.port = process.env.PORT || "3001";
+global.port = process.env.PORT || "3000";
 
 module.exports = {
   mongodb: global.mongodb,
